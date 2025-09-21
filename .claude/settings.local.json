@@ -25,7 +25,9 @@
       "Bash(npx eslint:*)",
       "Bash(awk:*)",
       "Bash(grep:*)",
-      "Bash(npm run lint)"
+      "Bash(npm run lint)",
+      "Bash(npm install:*)",
+      "Bash(git remote get-url:*)"
     ],
     "deny": [],
     "ask": []
