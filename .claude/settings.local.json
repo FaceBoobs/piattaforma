@@ -27,7 +27,12 @@
       "Bash(grep:*)",
       "Bash(npm run lint)",
       "Bash(npm install:*)",
-      "Bash(git remote get-url:*)"
+      "Bash(git remote get-url:*)",
+      "Bash(curl:*)",
+      "Bash(PORT=3005 npm start)",
+      "Bash(PORT=3006 npm start)",
+      "Bash(npm uninstall @walletconnect/web3-provider @walletconnect/modal)",
+      "Bash(npm run:*)"
     ],
     "deny": [],
     "ask": []
