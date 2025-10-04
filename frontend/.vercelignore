@@ -1,0 +1,32 @@
+# Development files
+node_modules
+.git
+.gitignore
+.DS_Store
+
+# Build cache
+.cache
+
+# Development specific files
+debug-*.js
+*-debug.js
+*-test.js
+upload-functionality-test.js
+complete-storage-debug.js
+storage-debug.js
+image-system-test.js
+fallback-mediaDisplay-fix.js
+debug-mediaDisplay-flow.js
+debug-fileid-mismatch.js
+
+# Documentation
+*.md
+UPLOAD_TEST_GUIDE.md
+FEED_FIX_SUMMARY.md
+SUPABASE_SETUP.md
+
+# SQL files
+*.sql
+
+# Source maps in production
+build/static/**/*.map
